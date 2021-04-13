@@ -8,7 +8,6 @@
 
 Project Specifications:
 
----
 1. A basic banking web-app used to transfer money between multiple users.
 2. The project contains 10 dummy users. A new dummy user can also be created. 
 3. It features user validation for transfer of money i.e. No negative, zero value can be transferred. 
@@ -18,7 +17,6 @@ Project Specifications:
 
 Tech Stack used:
 
----
 * Front-end
 
     * HTML
