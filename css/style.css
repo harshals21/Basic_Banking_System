@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    color: #25265e;   
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    margin: 20px 0 10px;
+    font-size: 1.1rem;
+}
+
+/* Navigation css */
+
+.navigation ul {
+    float: right;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 32px 15px;
+    float: left;
+  
+}
+
+.navigation li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #25265e;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navigation li a:hover {
+    color: #6501E5;
+}
+.navigation li a.active{
+    color: #6501E5;
+    border-bottom: 3px solid #6501E5;
+    padding-bottom: 3px;
+
+}
+
+.btn {
+    display: inline-block;
+    background: #6501E5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 114px;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 10;  
+    cursor: pointer;
+}
+
+.logoimg img{
+    position: absolute;
+    top: 25px;
+    left:52px;
+    width: 50px;
+}
+
+.home-img{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    height: 75%;
+    z-index: inherit;
+}
+
+.home-content{
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 48px;
+}
+
+
+section.home {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+
+}
+
+section.service-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       padding: 10px;
+}
+
+/* Services */
+
+.services{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.services .service {
+    padding: 30px;
+    background: white;
+}
+
+.services .service:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.services .service .icon img {
+    max-width: 200px;
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    background: #6501E5;
+    text-align: center;
+    padding: 10px 5px;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#footer-link{
+    color: white;
+}
+
+.btn-services{
+    display: inline-block;
+    background: #6501E5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btn-services:hover {
+    transform: scale(0.98);
+}
+
+/* Services icon transition */
+
+.icon{
+    transition: all 1s ease;
+}
+
+.icon:hover{
+    transform: rotate(360deg);
+}
