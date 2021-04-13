@@ -4,7 +4,7 @@
 > A basic banking system
 ![Preview](/static/preview.png)
 
-[LIVE DEMO](https://harshalgrow.000webhostapp.com/index.html)
+[LIVE DEMO](https://harshalgrow.000webhostapp.com)
 
 Project Specifications:
 
